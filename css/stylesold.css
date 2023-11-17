@@ -76,16 +76,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.page-navigation {
-  display: flex;
-  align-items: center;
-}
-
-.menu-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
 .logotype {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -96,6 +86,17 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-right: 76px;
+}
+
+.page-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
 }
 
 .menu-link {
