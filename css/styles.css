@@ -74,10 +74,10 @@ body {
 .contact-list {
   display: none;
 }
-.page-header {
+/* .page-header {
   padding-top: 16px;
   padding-bottom: 16px;
-}
+} */
 .header-container {
   display: flex;
   align-items: center;
@@ -367,8 +367,8 @@ body {
 /* ============== PORTFOLIO MOBILE STYLES ============== */
 .portfolio {
   background-color: #ffffff;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .portfolio-title {
   color: #2e2f42;
@@ -965,11 +965,11 @@ body {
   .contact-list {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 12px;
   }
   .contact-list-link {
     color: #434455;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -1024,9 +1024,10 @@ body {
   /* ============== BENEFITS TABLET STYLES ============== */
 
   .benefits-list {
-    gap: unset;
+    /* gap: unset; */
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 72px 24px;
   }
   .benefits-list-item {
     width: calc((100% - 24px) / 2);
@@ -1037,10 +1038,10 @@ body {
   /* ============== /BENEFITS TABLET STYLES ============== */
   /* ============== TEAM TABLET STYLES ============== */
   .team-list {
-    gap: 24px;
+    gap: 64px 24px;
   }
   .team-list-item {
-    width: calc((100% - 24px) / 2);
+    /* width: calc((100% - 24px) / 2); */
   }
   /* ============== /TEAM TABLET STYLES ============== */
 
@@ -1179,6 +1180,10 @@ body {
   }
   /* ============== /TEAM DESKTOP STYLES ============== */
   /* ============== PORTFOLIO DESKTOP STYLES ============== */
+  .portfolio {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 
   .portfolio-list {
     width: 1158px;
