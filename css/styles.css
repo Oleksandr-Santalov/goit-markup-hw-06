@@ -82,6 +82,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 .logotype {
   color: #4d5ae5;
@@ -925,7 +927,10 @@ body {
     display: flex;
     align-items: center;
   }
-
+  .header-container {
+    padding-top: unset;
+    padding-bottom: unset;
+  }
   .menu-list {
     display: flex;
     gap: 40px;
