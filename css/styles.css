@@ -833,13 +833,23 @@ body {
   visibility: visible;
   pointer-events: none;
 }
-
+.mobile-menu-contact-list {
+  margin-bottom: 48px;
+}
+.mobile-menu-social-list {
+  padding-bottom: 40px;
+}
 /* .mobile-menu.is-open {
-    transform: translateX(0%);
-  } */
-
+  transform: translateX(0%);
+} */
+.mobile-menu-nav {
+  margin-bottom: auto;
+}
 .mobile-menu-container {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .mobile-menu-close-btn {
   display: block;
@@ -906,10 +916,10 @@ body {
     height: 4px;
   } */
 /* .mobile-menu-contact-list {
-    gap: 24px;
-    display: flex;
-    flex-direction: column;
-  } */
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+} */
 
 /* @media screen and (min-width: 480px) {
   .container {
